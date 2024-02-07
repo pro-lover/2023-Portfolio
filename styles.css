@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #cdcdcd;
+    color: #333;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+   
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 420px;
+    margin-bottom: 10px;
+}
+header div {
+    border: rgb(0, 255, 200) 1px solid;
+    float: left;
+    width: 50%;
+    margin-top: 20%;
+}
+
+header h1 {
+    margin: 0;
+}
+nav {
+    text-align: center;
+}
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Section styles */
+section {
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 420px;
+    background-color: #f5f5f5;
+}
+section h2,p {
+    text-align: center;
+}
+section ul li p {
+    text-align: left;
+}
+section div {
+    border: rgb(0, 255, 200) 1px solid;
+    float: left;
+    width: 50%;
+}
+
+/* button styles */
+.button {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+.button button{
+    padding: 10px; 
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #2e3090;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
